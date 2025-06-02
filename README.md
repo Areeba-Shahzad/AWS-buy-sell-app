@@ -39,8 +39,6 @@ A fully serverless, scalable, and secure buying & selling platform inspired by O
 
 The platform uses an ALB to distribute traffic to auto-scaling EC2 backend instances. Images are stored in encrypted S3 buckets, delivered via CloudFront. Cognito handles user roles and JWTs for secure APIs. Transactions and search are handled through RDS and OpenSearch. Infrastructure is deployed via Terraform and monitored with CloudWatch.
 
-See full diagram in `/Architectural Diagram_Group3.png`.
-
 ---
 
 ## 💸 AWS Cost Estimation
