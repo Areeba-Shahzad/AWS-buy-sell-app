@@ -43,6 +43,22 @@ See full diagram in `/Architectural Diagram_Group3.png`.
 
 ---
 
+## 💸 AWS Cost Estimation
+
+| Service      | Monthly Cost (USD) |
+|--------------|--------------------|
+| EC2          | $6.86              |
+| RDS          | $115.71            |
+| S3           | $0.12              |
+| Lambda       | $0.00              |
+| CloudFront   | $1.10              |
+| Cognito      | $0.00              |
+| **Total**    | **≈ $122.69**      |
+
+🔗 [View AWS Calculator Estimate](https://calculator.aws/#/estimate?id=1d4628b308521dea393922c02561d2c2367a47bb)
+
+---
+
 ## 🧑‍💻 Setup & Deployment
 
 ```bash
