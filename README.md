@@ -87,5 +87,5 @@ source venv/bin/activate  # or venv\Scripts\activate (Windows)
 pip install -r requirements.txt
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
-## 🌍 Live Frontend URL
+## Live Frontend URL
 http://d1cuu1n5c09f1t.cloudfront.net
