@@ -8,15 +8,15 @@ A fully serverless, scalable, and secure buying & selling platform inspired by O
 
 ## 🚀 Features
 
-- 🔐 User authentication with AWS Cognito (JWT-based)
-- 🛍 Product listings with image uploads via S3
-- 🔎 Advanced filtering with OpenSearch (name, price, category)
-- 💳 Stripe-based transaction simulation
-- 👩‍💻 Role-based dashboards (Admin, Buyer, Seller)
-- 📷 CloudFront CDN for image delivery
-- 📈 Admin panel to monitor listings
-- 📦 Infrastructure provisioned using Terraform
-- 📊 CloudWatch monitoring & cost estimation
+- User authentication with AWS Cognito (JWT-based)
+- Product listings with image uploads via S3
+- Advanced filtering with OpenSearch (name, price, category)
+- Stripe-based transaction simulation
+- Role-based dashboards (Admin, Buyer, Seller)
+- CloudFront CDN for image delivery
+- Admin panel to monitor listings
+- Infrastructure provisioned using Terraform
+- CloudWatch monitoring & cost estimation
 
 ---
 
