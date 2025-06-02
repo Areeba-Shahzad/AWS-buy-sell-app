@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Make sure the body takes up the full height of the viewport */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 100%; /* Make sure it takes up the full width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Optional: Center text inside the container */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #8B5E3C;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #6E482F;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  /* Input Styling */
+  input[type="email"],
+  input[type="password"],
+  select {
+    background-color: #f9f9f9;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  select:focus {
+    border-color: #8B5E3C;
+    outline: none;
+  }
+  
+  /* Form Message */
+  p {
+    color: #8B5E3C;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Link */
+  a {
+    color: #8B5E3C;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* New Password Form */
+  .new-password-form p {
+    color: #8B5E3C;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .new-password-form input {
+    background-color: #f9f9f9;
+  }
+  
+  .new-password-form button {
+    background-color: #8B5E3C;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .new-password-form button:hover {
+    background-color: #6E482F;
+  }
+  
+  /* Loader Styles */
+  button:disabled {
+    opacity: 0.7;
+  }
+  
+  button:disabled:hover {
+    background-color: #ddd;
+  }
+  
+  /* Signup Page Specific */
+  .signup-select {
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
